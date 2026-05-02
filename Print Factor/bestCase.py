@@ -1,6 +1,6 @@
 from math import sqrt
 
-target = 20
+target = 16
 result = []
 for i in range(1,int(sqrt(target))+1):
     if target%i==0:

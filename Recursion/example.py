@@ -31,11 +31,11 @@
 
 # * Backtracking (Tail Recursion) 1 to N
 
-def count(N):
-    if N==0:
-        return
-    count(N-1)
-    print(N)
+# def count(N):
+#     if N==0:
+#         return
+#     count(N-1)
+#     print(N)
 
-count(5)
+# count(5)
 

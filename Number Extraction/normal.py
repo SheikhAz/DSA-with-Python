@@ -6,4 +6,5 @@ while nums > 0:
     result.append(l_digit)
     nums = nums//10
 
+result.reverse()
 print(result)

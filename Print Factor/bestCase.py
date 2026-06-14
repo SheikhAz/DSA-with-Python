@@ -1,12 +1,24 @@
 from math import sqrt
 
-target = 16
-result = []
-for i in range(1,int(sqrt(target))+1):
-    if target%i==0:
-        result.append(i)
-        if target//i!=i:
-            result.append(target//i)
+# target = 16
+# result = []
+# for i in range(1,int(sqrt(target))+1):
+#     if target%i==0:
+#         result.append(i)
+#         if target//i!=i:
+#             result.append(target//i)
 
-sorted_result = sorted(result)
-print(sorted_result)
+# sorted_result = sorted(result)
+# print(sorted_result)
+
+
+target = 25
+result =[]
+for i in range(1,int(sqrt(target))+1):
+   if target%i==0:
+       result.append(i)
+       if target//i!=i:
+           result.append(target//i)
+
+sorted_re = sorted(result)
+print(sorted_re)
